@@ -4,7 +4,7 @@ Welcome to RealBookParser v1.4!
 
 ## Introduction 
 
-For the working jazz musician, "Real Books" are an extremely important resource. However, they can be hard work; especially if one only has them in digital form. 
+For the working jazz musician, "Real Books" are an extremely important resource. However, using them can be hard work; especially if one only has them in digital form. 
 Let's assume you want to play a piece which you know is contained in a Real Book and that you have said Real Book in pdf form. This is what you have to do:
 
  - consult the master index to find the exact edition and page number
