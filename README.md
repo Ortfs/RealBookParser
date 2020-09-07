@@ -39,8 +39,8 @@ Step 3: Place your master.pdf in the same folder as the script and the data text
 
 ## How to use RealBookParser
 
-Step 1: Open terminal/command prompt and run the python script in interactive mode (python3 -i rb_parser_v1.4.py) 
-
+Step 1: Open terminal/command prompt and run the python script in interactive mode ( python3 -i rb_parser_v1.4.py )
+ 
 Step 2: When prompted, search for a piece using command std_search("Keyword"). Make Sure You Capitalize The Keyword Like This! 
 
 Step 3: All of the matches will appear, together with a key number. Find the key of the standard you were looking for, and enter command get_pdf(key)
