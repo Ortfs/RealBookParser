@@ -18,9 +18,9 @@ There must be an easier way, no? Well, now there is!
 
 RealBookParser automates the process described above. It is made up of the following parts:
 
-- data1.txt and data2.txt contain the data of the Real Book Master Index in plain text form
+- "data1.txt" and "data2.txt" contain the data of the Real Book Master Index in plain text form
 
-- master.pdf contains the sheet music pages of all 5 of the Real Books 
+- "master.pdf" contains the sheet music pages of all 5 of the Real Books 
 
 - the python script processes the data.txt files and, if run in interactive mode, allows one to effectively search the index via a keyword. Doing so returns all matches together with their respective keys. Entering "get_pdf(key)" extracts the pages containing the standard from master.pdf and saves them as a separate .pdf 
 
