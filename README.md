@@ -1,9 +1,8 @@
-# RealBookParser
-RealBookParser - a simple tool for managing "Real Book" pdfs
+# RealBookParser - a simple tool for managing "Real Book" pdfs
 
 Welcome to RealBookParser v1.4! 
 
-INTRODUCTION
+##INTRODUCTION
 
 As all jazz musicians know, "Real Books" are an extremely important resource. However, they can be hard work; especially if one only has them in digital form. 
 Let's assume you want to play a piece which you know is contained in a Real Book and that you have said Real Book in pdf form. This is what you have to do:
