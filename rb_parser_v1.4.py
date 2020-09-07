@@ -147,10 +147,11 @@ def std_search(word):
     for match in matching:
         print(match)
     print("")
-    print(  'Use command get_pdf( "page number" ) to create the pdf')
+    print(  'results are of the form ("Title", number)')
+    print(  'Use command get_pdf(number) to create the pdf')
 
 
 
-print(" Welcome to the Real Book pdf parser v1.4!")
+print(" Welcome to the RealBookParser v1.4!")
 print(' Use command std_search( "Capitalized Keyword" ) to search for a standard')
 print(' E.g std_search("Autumn")')
