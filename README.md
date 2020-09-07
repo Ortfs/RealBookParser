@@ -2,7 +2,7 @@
 
 Welcome to RealBookParser v1.4! 
 
-##INTRODUCTION
+## Introduction 
 
 As all jazz musicians know, "Real Books" are an extremely important resource. However, they can be hard work; especially if one only has them in digital form. 
 Let's assume you want to play a piece which you know is contained in a Real Book and that you have said Real Book in pdf form. This is what you have to do:
@@ -14,15 +14,14 @@ Let's assume you want to play a piece which you know is contained in a Real Book
 This involves opening numerous pdfs and relying on various tools/readers to do the job, and anyone who does this regularly knows it's a tedious process. 
 There must be an easier way, no? Well, now there is! 
 
-WHAT RealBookParser DOES
+## What RealBookParser does
 
 RealBookParser automates the process described above. It is made up of two .txt files (data1 and data2) containing the data of the real book master index and a python script which converts said data and uses it in conjunction with the PyPDF2 package to extract single pieces/pages from a .pdf file called master.pdf, containing the sheet music pages of all the real books in the master index (apart from the Standards Real Book. This will be added at a later date) 
 
 NOTE: Due to copyright restrictions, I cannot include any Real Book pdf's in this repository. You will need to make your own master.pdf to use RealBookParser! (This is the only tricky part. If you have questions, don't hesitate to contact francesconowell "at" gmail dot com
 
 
-
-FIRST TIME SETUP
+## First time setup
 
 Step 1: make sure you have Python 2.7 or higher installed, as well as the PyPDF package (pip install PyPDF2) 
 Step 2: create your own master.pdf by concatenating the Real Book pages in the following order:
@@ -38,8 +37,7 @@ NOTE: You should only have the SHEET MUSIC PAGES in your pdf, without the covers
 Step 3: Place your master.pdf in the same folder as the script and the data text files
 
 
-
-HOW TO USE RealBookParser
+## How to use RealBookParser
 
 Step 1: Open terminal/command prompt and run the python script in interactive mode (python3 -i rb_parser_v1.4.py) 
 
@@ -50,7 +48,7 @@ Step 3: All of the matches will appear, together with a key number. Find the key
 Step 4: All done! the pdf of the individual standard will now be in the same folder
 
 
-FUTURE UPDATES
+## Future updates
 
 I plan to add the following features at a later date: 
 
