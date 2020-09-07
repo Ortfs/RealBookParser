@@ -24,13 +24,13 @@ NOTE: Due to copyright restrictions, I cannot include any Real Book pdf's in thi
 ## First time setup
 
 Step 1: make sure you have Python 2.7 or higher installed, as well as the PyPDF package (pip install PyPDF2) 
-Step 2: create your own master.pdf by concatenating the Real Book pages in the following order:
 
-        - Real Book 1 (vol.5)
-        - Real Book 2 (all new, vol II.)
-        - The New Real Book 1 (Sher Music)
-        - The New Real Book 2 (Sher Music)
-        - The New Real Book 3 (Sher Music)
+Step 2: create your own master.pdf by concatenating the Real Book pages in the following order:
+- Real Book 1 (vol.5)
+- Real Book 2 (all new, vol II.)
+- The New Real Book 1 (Sher Music)
+- The New Real Book 2 (Sher Music)
+- The New Real Book 3 (Sher Music)
         
 NOTE: You should only have the SHEET MUSIC PAGES in your pdf, without the covers/indices. The pieces in the appendices will also be added at a later date. Page 1 of master.pdf should be page 1 of the Real Book 1. Page 478 should be Page 1 of the Real Book 2, etc. (Again, apologies if this is annoying but there are pdf manipulation tools which should make this relatively easy. If you run into trouble, contact me!) 
 
