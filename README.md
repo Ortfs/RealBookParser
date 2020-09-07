@@ -16,9 +16,15 @@ There must be an easier way, no? Well, now there is!
 
 ## What RealBookParser does
 
-RealBookParser automates the process described above. It is made up of two .txt files (data1 and data2) containing the data of the real book master index and a python script which converts said data and uses it in conjunction with the PyPDF2 package to extract single pieces/pages from a .pdf file called master.pdf, containing the sheet music pages of all the real books in the master index (apart from the Standards Real Book. This will be added at a later date) 
+RealBookParser automates the process described above. It is made up of the following parts:
 
-NOTE: Due to copyright restrictions, I cannot include any Real Book pdf's in this repository. You will need to make your own master.pdf to use RealBookParser! (This is the only tricky part. If you have questions, don't hesitate to contact francesconowell "at" gmail dot com
+- data1.txt and data2.txt contain the data of the Real Book Master Index in plain text form
+
+- master.pdf contains the sheet music pages of all 5 of the Real Books 
+
+- the python script processes the data.txt files and, if run in interactive mode, allows one to effectively search the index via a keyword. Doing so returns all matches together with their respective keys. Entering "get_pdf(key)" extracts the pages containing the standard from master.pdf and saves them as a separate .pdf 
+
+NOTE: Due to copyright restrictions, I cannot include any Real Book pdfs in this repository. You will need to make your own master.pdf to use RealBookParser! (This is the only tricky part. If you have questions, don't hesitate to contact francesconowell "at" gmail dot com
 
 
 ## First time setup
